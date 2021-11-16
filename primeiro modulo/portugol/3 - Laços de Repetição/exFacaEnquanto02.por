@@ -3,13 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro S, F, MS, MF
-		para(inteiro x=1 ; x<=20 ; x++){
-			escreva("Informe salario: ")
-			leia(S)
-			escreva("Informe numero de filhos: ")
-			leia(F)
-		}
+		inteiro x=0, soma=0, n1
+
+		escreva("Digite um numero de 1 a 9: ")
+		leia(n1)
+
+		faca{
+
+		soma+=x
+		x++
+		
+		}enquanto(x<=n1)
+
+		escreva(soma)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 190; 
+ * @POSICAO-CURSOR = 181; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
