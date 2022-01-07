@@ -5,6 +5,7 @@ public class Nome {
 	{
 		Pessoa pessoa1 = new Pessoa ("Rafael","borges","Pimentel");
 		System.out.println(pessoa1.getNomeCompleto());
+	
 	}
 
 }
